@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.2.4",
-  "released_at": "2026-03-30T21:27:21Z",
-  "changelog": "- Fix: SQLAlchemy-Crash beim Start (BazaarSetting.back_populates)\n- Fix: mDNS in Docker deaktivierbar via BAZAR_MDNS_ENABLED=false",
-  "docker_image": "ghcr.io/bennet1411/bazar-registersystem:1.2.4"
+  "latest_version": "1.2.5",
+  "released_at": "2026-03-30T22:07:31Z",
+  "changelog": "- Fix: 500 bei nicht erreichbarem Lizenzserver -> 503\n- Fix: BAZAR_LICENSE_BYPASS=true erm\u00f6glicht Setup ohne Lizenzserver\n- Fix: admin_update_license erstellt Lizenz wenn keine existiert\n- Fix: BazaarSetting back_populates Relationship in Bazaar\n- Fix: mDNS-Hang in Docker (BAZAR_MDNS_ENABLED=false)",
+  "docker_image": "ghcr.io/bennet1411/bazar-registersystem:1.2.5"
 }
