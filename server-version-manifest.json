@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.2.2",
-  "released_at": "2026-03-30T20:43:42Z",
-  "changelog": "- BazaarSettingCreate, BazaarSettingUpdate, BazaarSettingDetail erg\u00e4nzt\n- fastapi.status Import in crud.py erg\u00e4nzt",
-  "docker_image": "ghcr.io/bennet1411/bazar-registersystem:1.2.2"
+  "latest_version": "1.2.3",
+  "released_at": "2026-03-30T21:10:11Z",
+  "changelog": "- BAZAR_MDNS_ENABLED=false in docker-compose.yml (kein Multicast in Docker)\n- app.py: mDNS nur starten wenn BAZAR_MDNS_ENABLED=true (Default: true)\n- Verhindert Startup-Hang des Containers nach Alembic-Migration",
+  "docker_image": "ghcr.io/bennet1411/bazar-registersystem:1.2.3"
 }
