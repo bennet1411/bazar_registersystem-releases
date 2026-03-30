@@ -1,0 +1,6 @@
+{
+  "latest_version": "1.2.1",
+  "released_at": "2026-03-30T20:26:35Z",
+  "changelog": "- Bugfixes und Verbesserungen",
+  "docker_image": "ghcr.io/bennet1411/bazar-registersystem:1.2.1"
+}
