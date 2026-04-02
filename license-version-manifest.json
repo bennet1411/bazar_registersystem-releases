@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.0.0",
-  "released_at": "2026-04-02T18:22:27Z",
-  "changelog": "- Getrennte Tag-Pr\u00e4fixe: av* (App), sv* (Bazar-Server), lv* (Lizenzserver)\n- Lizenzserver VERSION-Datei, Build-Args im Dockerfile\n- GitHub Actions Workflow docker-publish-license.yml (Trigger: lv*)\n- Deployment-Scripts: setup.sh, update.sh, watchdog.sh, systemd-Service\n- docker-compose.yml nutzt jetzt GHCR-Image statt lokalem Build\n- Health-Endpoint liefert git_commit und build_date",
-  "docker_image": "ghcr.io/bennet1411/bazar-lizenzserver:1.0.0"
+  "latest_version": "1.0.1",
+  "released_at": "2026-04-02T20:56:54Z",
+  "changelog": "- Lizenzserver: release_license() setzt hardware_id und activation_count zurueck\n- Lizenzserver: POST /admin/licenses/{id}/release Endpunkt hinzugefuegt\n- Basarserver: BAZAR_INSTANCE_NAME wird als hardware_id beim Lizenzserver gesendet\n- Lizenzserver VERSION auf 1.0.1",
+  "docker_image": "ghcr.io/bennet1411/bazar-lizenzserver:1.0.1"
 }
