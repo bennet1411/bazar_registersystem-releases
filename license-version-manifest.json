@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.0.1",
-  "released_at": "2026-04-02T20:56:54Z",
-  "changelog": "- Lizenzserver: release_license() setzt hardware_id und activation_count zurueck\n- Lizenzserver: POST /admin/licenses/{id}/release Endpunkt hinzugefuegt\n- Basarserver: BAZAR_INSTANCE_NAME wird als hardware_id beim Lizenzserver gesendet\n- Lizenzserver VERSION auf 1.0.1",
-  "docker_image": "ghcr.io/bennet1411/bazar-lizenzserver:1.0.1"
+  "latest_version": "1.0.2",
+  "released_at": "2026-04-02T21:10:13Z",
+  "changelog": "- Lizenz-Exklusivitaet: eine Lizenz pro aktiver Basarserver-Instanz\n- POST /admin/licenses/{id}/release Endpunkt zum Freigeben einer Lizenz\n- Fix: days_remaining als @property (Pydantic-Validierungsfehler behoben)\n- RELEASED Event-Typ hinzugefuegt",
+  "docker_image": "ghcr.io/bennet1411/bazar-lizenzserver:1.0.2"
 }
