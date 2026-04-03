@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.2.8",
-  "released_at": "2026-04-03T14:16:14Z",
-  "changelog": "- Lizenzserver-URL aus zentralem Config-Manifest (LICENSE_SERVER_URL optional)\n- Watchdog migriert bestehende Instanzen automatisch beim Update\n- new-instance.sh: URL-Parameter optional",
-  "docker_image": "ghcr.io/bennet1411/bazar-registersystem:1.2.8"
+  "latest_version": "1.2.10",
+  "released_at": "2026-04-03T19:04:56Z",
+  "changelog": "- Web-Client unter /webclient verfuegbar (mobile Geraete)\n- Fix: .dockerignore localexe/ wieder eingeschlossen\n- Fix: docker-publish.yml semver-Tags durch raw-Tags ersetzt",
+  "docker_image": "ghcr.io/bennet1411/bazar-registersystem:1.2.10"
 }
