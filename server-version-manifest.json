@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.2.12",
-  "released_at": "2026-04-04T14:57:24Z",
-  "changelog": "- Webclient aktualisiert auf av1.2.12:",
-  "docker_image": "ghcr.io/bennet1411/bazar-registersystem:1.2.12"
+  "latest_version": "1.2.13",
+  "released_at": "2026-04-04T20:01:19Z",
+  "changelog": "- Fix: Kasse-Inputs nach Modal blockiert (Windows Focus-Reset bei Seitenwechsel)\n- Feature: Vollstaendiges Datenbank-Backup herunterladen und wiederherstellen\n- Feature: Backup-Wiederherstellung in der Ersteinrichtung (Schritt 4)\n- Feature: Lokales Kassenbuch (Audit-Log, unabhaengig vom Server)\n- Feature: Lizenz deaktivieren (Instanz freigeben fuer andere Installation)\n- Feature: GET /admin/backup/download - SQLite Hot-Backup\n- Feature: POST /admin/backup/restore - Datenbank wiederherstellen\n- Feature: POST /license/deactivate - Lizenz-Instanz freigeben\n- Fix: new-instance.sh data/-Verzeichnis Permissions (chown nach chown -R)\n- Feature: POST /license/deactivate - Client-seitige Lizenzfreigabe mit hardware_id-Pruefung",
+  "docker_image": "ghcr.io/bennet1411/bazar-registersystem:1.2.13"
 }
