@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.2.10",
-  "released_at": "2026-04-03T19:04:56Z",
-  "changelog": "- Web-Client unter /webclient verfuegbar (mobile Geraete)\n- Fix: .dockerignore localexe/ wieder eingeschlossen\n- Fix: docker-publish.yml semver-Tags durch raw-Tags ersetzt",
-  "docker_image": "ghcr.io/bennet1411/bazar-registersystem:1.2.10"
+  "latest_version": "1.2.11",
+  "released_at": "2026-04-04T14:22:10Z",
+  "changelog": "- Fix: Teilnehmer-Liste und Kasse laden jetzt alle Teilnehmer (limit=9999)\n- Web-Client: av1.2.9 im Docker-Image",
+  "docker_image": "ghcr.io/bennet1411/bazar-registersystem:1.2.11"
 }
