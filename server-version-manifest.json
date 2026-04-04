@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.2.11",
-  "released_at": "2026-04-04T14:22:10Z",
-  "changelog": "- Fix: Teilnehmer-Liste und Kasse laden jetzt alle Teilnehmer (limit=9999)\n- Web-Client: av1.2.9 im Docker-Image",
-  "docker_image": "ghcr.io/bennet1411/bazar-registersystem:1.2.11"
+  "latest_version": "1.2.12",
+  "released_at": "2026-04-04T14:57:24Z",
+  "changelog": "- Webclient aktualisiert auf av1.2.12:",
+  "docker_image": "ghcr.io/bennet1411/bazar-registersystem:1.2.12"
 }
