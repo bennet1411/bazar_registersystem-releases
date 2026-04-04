@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.2.13",
-  "released_at": "2026-04-04T20:01:19Z",
-  "changelog": "- Fix: Kasse-Inputs nach Modal blockiert (Windows Focus-Reset bei Seitenwechsel)\n- Feature: Vollstaendiges Datenbank-Backup herunterladen und wiederherstellen\n- Feature: Backup-Wiederherstellung in der Ersteinrichtung (Schritt 4)\n- Feature: Lokales Kassenbuch (Audit-Log, unabhaengig vom Server)\n- Feature: Lizenz deaktivieren (Instanz freigeben fuer andere Installation)\n- Feature: GET /admin/backup/download - SQLite Hot-Backup\n- Feature: POST /admin/backup/restore - Datenbank wiederherstellen\n- Feature: POST /license/deactivate - Lizenz-Instanz freigeben\n- Fix: new-instance.sh data/-Verzeichnis Permissions (chown nach chown -R)\n- Feature: POST /license/deactivate - Client-seitige Lizenzfreigabe mit hardware_id-Pruefung",
-  "docker_image": "ghcr.io/bennet1411/bazar-registersystem:1.2.13"
+  "latest_version": "1.2.15",
+  "released_at": "2026-04-04T21:53:03Z",
+  "changelog": "- Kassenzuordnung & Preiseinstellungen sofort uebernehmen (ohne Re-Login)\n- Basar-Einstellungen kopieren: Rollen, Kassen, Zeitraeume, Settings, Teilnehmer\n- Automatische SQLite-Backups alle 5 Min (install-backup.sh, upgrade-server.sh)\n- Backup-Setup in new-instance.sh, update-instance.sh und watchdog.sh integriert",
+  "docker_image": "ghcr.io/bennet1411/bazar-registersystem:1.2.15"
 }
