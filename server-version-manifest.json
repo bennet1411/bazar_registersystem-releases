@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.2.15",
-  "released_at": "2026-04-04T21:53:03Z",
-  "changelog": "- Kassenzuordnung & Preiseinstellungen sofort uebernehmen (ohne Re-Login)\n- Basar-Einstellungen kopieren: Rollen, Kassen, Zeitraeume, Settings, Teilnehmer\n- Automatische SQLite-Backups alle 5 Min (install-backup.sh, upgrade-server.sh)\n- Backup-Setup in new-instance.sh, update-instance.sh und watchdog.sh integriert",
-  "docker_image": "ghcr.io/bennet1411/bazar-registersystem:1.2.15"
+  "latest_version": "1.2.17",
+  "released_at": "2026-04-05T17:32:15Z",
+  "changelog": "- Rechnungen fuer alle Teilnehmer erstellen, nicht nur mit Umsatz",
+  "docker_image": "ghcr.io/bennet1411/bazar-registersystem:1.2.17"
 }
