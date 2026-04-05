@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.2.18",
-  "released_at": "2026-04-05T17:32:20Z",
-  "changelog": "- Teilnehmerliste PDF als Annahme- und Abholungsformular\n- Rechnungen fuer alle Teilnehmer (auch ohne Umsatz)",
-  "docker_image": "ghcr.io/bennet1411/bazar-registersystem:1.2.18"
+  "latest_version": "1.2.19",
+  "released_at": "2026-04-05T17:32:32Z",
+  "changelog": "- Teilnehmerliste: Unterschriftfeld vergroessert, Name/Telefon schmaler\n- Teilnehmerliste: Fusszeile korrekt ueber @page margin-box (WeasyPrint)\n- Teilnehmerliste: Deaktivierte Teilnehmer werden nicht exportiert",
+  "docker_image": "ghcr.io/bennet1411/bazar-registersystem:1.2.19"
 }
