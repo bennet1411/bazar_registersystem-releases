@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.2.20",
-  "released_at": "2026-04-09T10:00:04Z",
-  "changelog": "- Fokus-Fenster-Bug behoben: Teilnehmer deaktivieren/reaktivieren auf Doppelklick-Muster umgestellt\n- Fokus-Fenster-Bug behoben: Bon loeschen in Bon-Historie auf Doppelklick-Muster umgestellt\n- Bestaetigungs-Zustand nur per Farbwechsel (kein Textaenderung) bei Teilnehmer-Buttons\n- PDF-Rechnung: \"Verkaeufe\" zu \"Verk\u00e4ufe\" korrigiert, \"Naechster Basar\"-Abschnitt entfernt\n- Webclient (iPad): Touch-Scrolling in Bon-Historie und Sidebar gefixt",
-  "docker_image": "ghcr.io/bennet1411/bazar-registersystem:1.2.20"
+  "latest_version": "1.2.21",
+  "released_at": "2026-04-11T15:16:02Z",
+  "changelog": "- PDF-Rechnung: Dankestext in erstes Drittel (oben rechts) verschoben\n- PDF-Rechnung: Immer 1 Spalte statt Mehrspaltenlayout\n- PDF-Rechnung: Abrechnung-Block bleibt zusammen, kommt bei Platzmangel komplett auf Seite 2 mit Rand\n- PDF-Rechnung: Zusaetzliche Info wird nur angezeigt wenn eingetragen\n- PDF-Rechnung: Fuesszeile mit Abstand vom Inhalt",
+  "docker_image": "ghcr.io/bennet1411/bazar-registersystem:1.2.21"
 }
