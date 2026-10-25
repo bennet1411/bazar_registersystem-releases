@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.2.21",
-  "released_at": "2026-04-11T15:16:02Z",
-  "changelog": "- PDF-Rechnung: Dankestext in erstes Drittel (oben rechts) verschoben\n- PDF-Rechnung: Immer 1 Spalte statt Mehrspaltenlayout\n- PDF-Rechnung: Abrechnung-Block bleibt zusammen, kommt bei Platzmangel komplett auf Seite 2 mit Rand\n- PDF-Rechnung: Zusaetzliche Info wird nur angezeigt wenn eingetragen\n- PDF-Rechnung: Fuesszeile mit Abstand vom Inhalt",
-  "docker_image": "ghcr.io/bennet1411/bazar-registersystem:1.2.21"
+  "latest_version": "1.3.0",
+  "released_at": "2026-10-25T13:43:28Z",
+  "changelog": "- WICHTIGER FIX Teilnehmerabrechnung: zurueckgegebene Artikel aus Helfereinkaeufen werden nicht mehr ausgezahlt (Migration m3n4o5p6q7r8)\n- Fix: Umsatz nach Rolle und Diagramme zaehlen keine stornierten Bons und Rueckgaben mehr\n- Neu: Kassenfuehrung mit Kassensitzungen, Zaehlmaske, Hauptkasse, Abschluss mit Soll-Ist-Vergleich und PDF-Berichten\n- Neu: Bons ohne Kassensitzung nachtraeglich zuordnen (mit Audit-Log)\n- Neu: Cafeteria mit Touch-Kasse, Produkt-Icons, Selbstbedienung (Kiosk mit PIN) und Trinkgeld\n- Neu: PayPal per QR-Code (PayPal.me) an Basar- und Cafeteria-Kasse, getrennt vom Bargeld ausgewiesen\n- Neu: Kundenanzeige auf iPad, Browser oder zweitem Monitor (Kopplungscode, Live-Bon, Rueckgeld, PayPal-QR)\n- Neu: Kundenanzeige zeigt Verkaufsart, begruesst Helfer mit Namen, Kunde kann Helfernummer selbst eingeben\n- Neu: Kunde waehlt im Bezahlschritt Bar oder PayPal sowie Teilzahlung oder Nachtraeglich, Kassierer schliesst ab\n- Neu: Hinweis Unterstuetzt von Bazzy mit QR-Code auf der Kundenanzeige, zentral gepflegt\n- Neu: Bon aus der Historie in die Kasse laden fuer Rueckgaben und Aenderungen mit Nachzahlung oder Erstattung\n- Bonliste zeigt den neuesten Artikel oben mit Animation\n- Fix: Kundenanzeige ignorierte nach Neustart der Kassen-App neue Zustaende\n- Bedienungsanleitung um Kapitel 17 bis 20 und Abschnitt 4.5a erweitert, CHANGELOG.md und Architektur-Dokumente",
+  "docker_image": "ghcr.io/bennet1411/bazar-registersystem:1.3.0"
 }
