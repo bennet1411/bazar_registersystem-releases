@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.5.0",
-  "released_at": "2026-11-01T09:03:47Z",
-  "changelog": "- Server auf diesem Geraet (Windows und Ubuntu): aus der App installieren und einschalten,\n- Zahnrad vor der Anmeldung: App-/Serverversion, App-Update ohne Server-Login\n- PayPal getrennt fuer Basar-Kasse und Cafeteria, Gebuehren, optionaler Aufschlag,\n- Kundenanzeige: Hinweis nach dem Bezahlen; Basar uebernehmen mit Rollenfilter\n- Ersteinrichtung ohne Admin-Token und fortsetzbar, Datensicherung als Admin einspielen\n- Behoben: Bon loeschen nach Rueckgabe, Buchung auf Kasse 1 ohne Auswahl, beschaedigte DB",
-  "docker_image": "ghcr.io/bennet1411/bazar-registersystem:1.5.0"
+  "latest_version": "1.5.1",
+  "released_at": "2026-11-01T11:56:17Z",
+  "changelog": "- Basarwechsel: Kassen, Kassensitzungen und Bons vermischen sich nicht mehr zwischen Basaren\n- Kassenzuordnung schaltet die Oberflaeche sofort um, gilt auch fuer Admins\n- Kassenfuehrung: Status nach wenigen Sekunden, schnelleres Oeffnen\n- Cafeteria auf iPad/Handy: Ziffernblock, Hinweise blockieren den Bezahl-Knopf nicht\n- Kopplungs-QR der Kundenanzeige mit Netzwerk-Adresse, Server-QR oeffnet den Webclient\n- Ueber Bazzy mit QR-Code, Bedienungsanleitung 1.5.1 in der App (oeffnen / als PDF)",
+  "docker_image": "ghcr.io/bennet1411/bazar-registersystem:1.5.1"
 }
