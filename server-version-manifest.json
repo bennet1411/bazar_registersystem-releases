@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.4.0",
-  "released_at": "2026-10-25T20:56:41Z",
-  "changelog": "- Neu: Bazzy-Waechter prueft im Hintergrund laufend Abrechnung, Bons, Kassen und Cafeteria (Ampel, Seite Pruefung, Quittieren, Hinweis vor dem Druck)\n- Neu: Gedruckte und ausgezahlte Abrechnungen werden festgehalten, spaetere Abweichungen gemeldet\n- Neu: Basar-Abschlussbericht als PDF fuer die Kassenpruefer\n- Neu: Bazzo, der Hilfe-Assistent (Hinweise, Suche in der Anleitung, Touren, Erklaerung von Meldungen)\n- Neu: Bazzo auf der Kundenanzeige (Begruessung, Betrag, Rueckgeld, Dank; abschaltbar)\n- Neu: Gesamtdaten eines Basars als Excel-Arbeitsmappe mit verknuepften Formeln (Auswertung)\n- Fix: Knoepfe mit weisser Schrift auf weissem Grund (Bazzo, Kassenfuehrung, Filter, Rechnungsvorschau)\n- Qualitaet: automatische Tests im Repository inkl. anonymisierter Echtdaten, Releases nur bei gruenen Tests\n- Doku: Bedienungsanleitung 9.5 und 21, Plaene fuer Waechter/Bazzo, Excel-Export und Windows-Server",
-  "docker_image": "ghcr.io/bennet1411/bazar-registersystem:1.4.0"
+  "latest_version": "1.5.0",
+  "released_at": "2026-11-01T09:03:47Z",
+  "changelog": "- Server auf diesem Geraet (Windows und Ubuntu): aus der App installieren und einschalten,\n- Zahnrad vor der Anmeldung: App-/Serverversion, App-Update ohne Server-Login\n- PayPal getrennt fuer Basar-Kasse und Cafeteria, Gebuehren, optionaler Aufschlag,\n- Kundenanzeige: Hinweis nach dem Bezahlen; Basar uebernehmen mit Rollenfilter\n- Ersteinrichtung ohne Admin-Token und fortsetzbar, Datensicherung als Admin einspielen\n- Behoben: Bon loeschen nach Rueckgabe, Buchung auf Kasse 1 ohne Auswahl, beschaedigte DB",
+  "docker_image": "ghcr.io/bennet1411/bazar-registersystem:1.5.0"
 }
